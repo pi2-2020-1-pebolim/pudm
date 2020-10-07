@@ -32,7 +32,6 @@ maquina O***********************************************O  humano
     0,0                                                   x,0
 
 ```
-Onde x representa a largura e y o comprimento da mesa.
 
 #### Motores
 
