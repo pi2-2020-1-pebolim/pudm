@@ -85,8 +85,8 @@ Um EventType é a definição de o que determinado evento representa. Observe qu
 {
     "evenType": "register",
     "fieldDefinition": {   // contem definições do campo de jogo
-        "dimensions": [float, float], // largura e comprimento (cm)
-        "lanes": [ // lsita que contem a descrição de cada linha controlada pela maquina (cada elemento representa uma linha)
+        "dimensions": [float, float], // comprimento e largura em cm
+        "lanes": [ // lista que contem a descrição de cada linha controlada pela maquina (cada elemento representa uma linha)
             {
                 "laneID": int, // id da linha, a linha mais próxima do gol da maquina é a linha 0
                 "xPosition": float // posição X da linha (fixo para a haste)
@@ -98,8 +98,8 @@ Um EventType é a definição de o que determinado evento representa. Observe qu
     ]
     },
     "cameraSettings": { // informações da camera integrada a mesa
-        "framerate": int,
-        "resolution": [int, int]
+        "framerate": int, // em frames por segundo
+        "resolution": [int, int] // comprimento e largura em pixels
     }
 }
 
